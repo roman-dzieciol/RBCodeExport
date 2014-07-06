@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{298ad57e-9328-4fec-b9a3-8d6514226a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{929ec4e9-b77c-4302-bb9a-2cbcdcb26563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Precompiled">
+      <UniqueIdentifier>{2765b8c0-a688-4d7c-93f8-192408d736a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Code\Headers\reduced">
+      <UniqueIdentifier>{6154fcb2-8b38-40a9-ba10-6d9740d8842c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Docs\RBCodeExport.txt">
+      <Filter>Docs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Code\Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="rbArchives.cpp">
+      <Filter>Code\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="rbBytecode.cpp">
+      <Filter>Code\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="rbBytecode_code.cpp">
+      <Filter>Code\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="rbBytecode_func.cpp">
+      <Filter>Code\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="rbBytecode_output.cpp">
+      <Filter>Code\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="rbCodeExport.cpp">
+      <Filter>Code\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="rbComplexTypes.cpp">
+      <Filter>Code\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="rbNativeObjects.cpp">
+      <Filter>Code\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Code\Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="rbBytecode.h">
+      <Filter>Code\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="rbCodeExport.h">
+      <Filter>Code\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="rbNativeObjects.h">
+      <Filter>Code\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="rbXmlDocument.h">
+      <Filter>Code\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="rbArchives.h">
+      <Filter>Code\Headers\reduced</Filter>
+    </ClInclude>
+    <ClInclude Include="rbBasicTypes.h">
+      <Filter>Code\Headers\reduced</Filter>
+    </ClInclude>
+    <ClInclude Include="rbComplexTypes.h">
+      <Filter>Code\Headers\reduced</Filter>
+    </ClInclude>
+    <ClInclude Include="rbDebug.h">
+      <Filter>Code\Headers\reduced</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,81 @@
+// ============================================================================
+//  RBCodeExport :: UE3 Decompiler
+// ============================================================================
+//  Copyright (C) 2007 Roman Switch` Dzieciol
+// ============================================================================
+
+
+
+
+// ============================================================================
+//  Pkg.u facts
+// ============================================================================
+
+ ..\RoboGame\Script\Pkg.u (Package pkg): Names=15 (0K/0K) Imports=7 (0K) Exports=6 (0K) Gen=1 Bulk=0
+ 
+ CRC32(ext) AA5F03C0
+ 
+4	Magic
+2	Package Version
+6	Unknown
+x	ustring
+	4 length
+	x string
+4	Package flags
+4	Name count
+4	Name offset
+4	Export count
+4	Export offset
+4	Import count
+4	Import offset
+16	GUID
+4	Gen count
+	4 export count
+	4 name count
+	
+
+// ============================================================================
+
+406: native(161) static final operator(34) int  += ( out int a, int b );
+
+4	57010000
+4	00000000
+4	00000000
+4	00000000 
+4	34030000	eidx func param
+4	00000000
+4	35030000	eidx func param
+4	00000000
+4	ae010000	line
+4	a7290000	position
+4	0C000000	script size
+1	29			EX_NativeParm
+4	35030000	oidx func param
+1	29			EX_NativeParm
+4	36030000	oidx func param
+1	0b			EX_Nothing
+1	53			
+2	a100		fidx
+1	22			precedence
+4	01344200	flags
+2	FFFF		only if flags & 0x40
+4	e1000000	friendly name
+4	00000000	
+
+
+// ============================================================================
+function flags
+
+02000200 00000000000000100000000000000010	normal
+42002200 00000000001000100000000001000010	server
+42010201 00000001000000100000000101000010	client
+02010200 00000000000000100000000100000010	simulated
+C2002200 00000000001000100000000011000010	reliable server
+C2010201 00000001000000100000000111000010	reliable client
+
+
+
+ 
+// ============================================================================
+//  EOF
+// ============================================================================
